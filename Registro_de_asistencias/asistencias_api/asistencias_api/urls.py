@@ -9,4 +9,5 @@ router.register(r'asistencias', AsistenciaViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path('login/', include(router.urls)),
 ]
